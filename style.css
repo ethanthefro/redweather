@@ -1,0 +1,200 @@
+/***** GLOBALS *****/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+}
+
+a:hover {
+    color: #9172ae;
+}
+
+.section-title {
+    padding: .5em 0;
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.section-title a {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0 3em;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.title-bar {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 9.5vh;
+    padding-top: 0.5vh;
+}
+
+.header-logo {
+    height: 8vh;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    height: 2em;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 11px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/***** MAIN SITE STYLES HERE*****/
+
+.hero {
+    height: 90vh;
+    background-image: url("img/hero-photo.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.music-section {
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #38373d;
+    background-image: linear-gradient(#38373d, 2c2b30)
+}
+
+.music-video {
+    padding-bottom: 3em;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img//about-photo.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+}
+
+.about-box {
+    margin-top: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.about-section h2 {
+    padding-top: 2em;
+    color: white;
+}
+
+/******* PRESS KIT STYLES START HERE *******/
+#body-press {
+    line-height: 1.5;
+}
+
+.press-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    align-items: center;
+    width: 100%;
+}
+
+.press-width {
+    max-width: 750px;
+    row-gap: 1em;
+}
+
+.press-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+
+.press-header-photo {
+    width: 100%;
+}
+
+.press-header-quotes {
+    display: flex;
+    justify-content: space-between
+}
+
+.quote {
+    width: 25%;
+}
+
+p strong {
+    font-size: 12px;
+}
+
+.press-bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.press-photos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.press-photo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.press-photo-list a {
+    width: 50%;
+}
+
+.photo-thumb {
+    width: 100%;
+}
