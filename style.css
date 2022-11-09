@@ -112,7 +112,9 @@ a:hover {
     background-image: url("img//about-photo.webp");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
+    /* height: 100vh; */
 }
 
 .about-text {
@@ -121,17 +123,43 @@ a:hover {
 }
 
 .about-box {
-    margin-top: 50vh;
+    margin-top: 25vh;
     background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     color: white;
     padding: 1em;
     border-radius: 1em;
+    height: fit-content;
+    margin-bottom: 3em;
 }
 
 .about-section h2 {
     padding-top: 2em;
     color: white;
+}
+
+.index-social-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em 0 1em 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.index-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+    justify-content: center;
+    width: 100%;
+}
+
+.index-social-links li {
+    width: 3em;
+}
+
+.index-social-wrapper li a img {
+    width: 100%;
 }
 
 /******* PRESS KIT STYLES START HERE *******/
@@ -189,12 +217,77 @@ p strong {
 .press-photo-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .press-photo-list a {
-    width: 50%;
+    width: 49%;
 }
 
 .photo-thumb {
     width: 100%;
+}
+
+.press-socials {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    min-width: 750px;
+}
+
+.press-social-links {
+    display: flex;
+    column-gap: 1em;
+    justify-content: center;
+}
+
+.press-social-links li a img {
+    width: 3em;
+}
+
+.press-social-links li:hover, .index-social-links li:hover {
+    --webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.press-music {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    min-width: 750px;
+}
+
+.music-player-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.press-videos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    min-width: 750px;
+}
+
+.video-container { 
+    position: relative;
+    padding-bottom: 50%; 
+    height: 0; 
+    overflow: hidden;
+    width: 100%;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.all-press-videos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
 }
