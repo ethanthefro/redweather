@@ -130,6 +130,22 @@ a:hover {
     width: 5em;
 }
 
+.press-music-icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.press-music-icons img {
+    width: 5em;
+}
+
+.press-music-icons a:hover {
+    --webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 .about-section {
     display: flex;
     flex-direction: column;
@@ -288,6 +304,18 @@ p strong {
     align-items: center;
 }
 
+.music-player iframe {
+    border: 0;
+    width: 560px;
+    height: 472px;
+}
+
+#press-music-player iframe {
+    border: 0;
+    width: 100%;
+    height: 29.5em;
+}
+
 .press-videos {
     display: flex;
     flex-direction: column;
@@ -367,5 +395,99 @@ p strong {
 
     .about-box {
         width: 75%;
+    }
+
+    /***** PRESS MEDIA QUERIES START HERE *****/
+    .body-press {
+        justify-content: center;
+    }
+    
+    .press-section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .press-header {
+        width: 90%;
+    }
+
+    .press-header-quotes {
+        flex-direction: column;
+        row-gap: 1em;
+        justify-content: none;
+        align-items: center;
+    }
+
+    .quote {
+        width: 75%;
+    }
+
+    .press-social-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .press-social-links li a img {
+        width: 15vw;
+    }
+
+    .press-music {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .press-music h2 {
+        width: 90vw;
+    }
+
+    .press-socials {
+        min-width: none;
+        max-width: 95vw;
+        align-items: center;
+    }
+
+    .press-socials h2 {
+        width: 90vw;
+    }
+
+    .press-width {
+        width: 90vw;
+    }
+
+    #press-music-player iframe {
+        width: 90vw;
+        overflow: hidden;
+    }
+
+    .press-videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        min-width: none;
+    }
+
+    .press-videos h2 {
+        width: 90vw;
+    }
+
+    .all-press-videos {
+        align-items: center;
+        width: 90vw;
+        min-width: none;
+    }
+
+    .video-container {
+        width: 100%;
+        padding-bottom: 56.25%;
+    }
+
+    .video-container iframe {
+        width: 100%;
     }
 }
