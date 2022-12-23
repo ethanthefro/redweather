@@ -158,6 +158,10 @@ a:hover {
     /* height: 100vh; */
 }
 
+.mobile-about-photo {
+    display: none;
+}
+
 .about-text {
     display: flex;
     justify-content: center;
@@ -298,6 +302,10 @@ p strong {
     min-width: 750px;
 }
 
+.press-plot h2 {
+    display: none;
+}
+
 .music-player-wrapper {
     display: flex;
     justify-content: center;
@@ -393,8 +401,33 @@ p strong {
         display: none;
     }
 
+    #music {
+        padding: 0;
+    }
+
     .about-box {
-        width: 75%;
+        width: 85%;
+    }
+
+    .about-section {
+        background-image: url("img/wywcover.webp");
+    }
+
+    .about-box {
+        margin-top: 1em;
+    }
+
+    .about-section h2 {
+        padding-top: 1em;
+    }
+
+    .mobile-about-photo {
+        display: block;
+    }
+
+    .mobile-about-photo img {
+        width: 100%;
+        border-radius: 1em;
     }
 
     /***** PRESS MEDIA QUERIES START HERE *****/
