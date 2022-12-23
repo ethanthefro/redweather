@@ -472,6 +472,7 @@ p strong {
         flex-direction: column;
         align-items: center;
         width: 90vw;
+        min-width: 0;
     }
 
     .press-music h2 {
@@ -479,7 +480,7 @@ p strong {
     }
 
     .press-socials {
-        min-width: none;
+        min-width: 0;
         max-width: 95vw;
         align-items: center;
     }
@@ -502,7 +503,7 @@ p strong {
         flex-direction: column;
         align-items: center;
         width: 90vw;
-        min-width: none;
+        min-width: 0;
     }
 
     .press-videos h2 {
