@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html {
@@ -19,6 +21,42 @@ a:link, a:visited, a:active {
 
 a:hover {
     color: #9172ae;
+}
+
+.font-gimlet-reg {
+    font-family: gimlet-display,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-gimlet-bold {
+    font-family: gimlet-display,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-gimlet-cond {
+    font-family: gimlet-display-condensed, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-gimlet-cond-bold {
+    font-family: gimlet-display-condensed, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-bodega-light {
+    font-family: bodega-sans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-bodega-black {
+    font-family: bodega-sans,sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .section-title {
@@ -38,8 +76,8 @@ a:hover {
 
 .nav-link {
     text-decoration: none;
-    font-family: sans-serif;
     padding: 0 3em;
+    font-size: 24px;
 }
 
 .body {
@@ -207,6 +245,10 @@ a:hover {
     width: 100%;
 }
 
+#band-members {
+    line-height: 1.25em;
+}
+
 /******* PRESS KIT STYLES START HERE *******/
 #body-press {
     line-height: 1.5;
@@ -237,11 +279,20 @@ a:hover {
 
 .press-header-quotes {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .quote {
     width: 25%;
+    font-size: 18px;
+}
+
+.quote p {
+    text-align: center;
+}
+
+.quote p strong {
+    font-size: 18px;
 }
 
 p strong {
