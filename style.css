@@ -135,6 +135,34 @@ a:hover {
     background-position: center;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2em;
+    max-height: 3.5em;
+    height: 5vh;
+    text-align: center;
+    background-color: #9172ae;
+    opacity: 90%;
+}
+
+#mobile-banner {
+    display: none;
+}
+
+.banner-text-anchor {
+    text-decoration: none;
+}
+
+.banner-text-anchor:hover {
+    color: black;
+}
+
+#banner-text {
+    font-size: 2vh;
+}
+
 .mobile-photo {
     display: none;
 }
@@ -479,6 +507,14 @@ p strong {
 
     .hero {
         display: none;
+    }
+
+    .hero .banner {
+        display: none;
+    }
+
+    #mobile-banner {
+        display: flex;
     }
 
     .mobile-photo {
