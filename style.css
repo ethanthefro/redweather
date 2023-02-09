@@ -482,6 +482,10 @@ p strong {
     text-align: left;
 }
 
+.show-desc b {
+    font-weight: bold;
+}
+
 .show-name {
     text-align: center;
     font-weight: bold;
