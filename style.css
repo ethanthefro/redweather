@@ -503,6 +503,11 @@ p strong {
     bottom: 0;
 }
 
+#ticket-link {
+    color: black;
+    font-weight: 700;
+}
+
 /***** MEDIA QUERIES BELOW *****/
 @media only screen and (max-width: 768px) {
 
