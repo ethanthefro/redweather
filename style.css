@@ -225,6 +225,16 @@ a:hover {
     /* height: 100vh; */
 }
 
+.sponsors {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sponsor-logo {
+    padding-top: 1em;
+    max-width: 300px;
+}
+
 .mobile-about-photo {
     display: none;
 }
