@@ -20,7 +20,7 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-    color: #fec944;
+    color: #962655;
 }
 
 .font-gimlet-reg {
@@ -143,7 +143,7 @@ a:hover {
     max-height: 3.5em;
     height: 5vh;
     text-align: center;
-    background-color: #fec944;
+    background-color: #401024;
     opacity: 90%;
 }
 
@@ -156,16 +156,16 @@ a:hover {
 }
 
 .banner-text-anchor:hover {
-    color: white;
+    color: black;
 }
 
 #banner-text {
     font-size: 2vh;
-    color: black;
+    color: color;
 }
 
 #banner-text:hover {
-    color: white;
+    color: black;
 }
 
 .mobile-photo {
@@ -407,6 +407,7 @@ p strong {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .music-player iframe {
